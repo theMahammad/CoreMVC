@@ -13,7 +13,21 @@
 <body>
     <div>Salam olsun yaxşılara!</div>
     <div>
-        @DateTime.Now;
+        @DateTime.Now; <!--In order to write C# code, that symbol is required -->
     </div>
+    @for(int i = 0; i < 10; i++)
+            {
+                <h1>@i</h1> // "@" helps us to express the value of "i". Otherwise, "i" itself would print 10 times
+            }
+
+    @{// In this scope, we don't need more @ for coding
+
+        var list = new List<string>() { "Azerbaycan", "Baku", "Lankaran" };
+
+     }
+    @foreach(var item in list)
+            {
+                <h4 style="color:red">@item</h4>
+            }
 </body>
 </html>
