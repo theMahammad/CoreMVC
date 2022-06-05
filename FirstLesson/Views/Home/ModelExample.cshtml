@@ -1,0 +1,32 @@
+﻿@model List<FirstLesson.Models.Book>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Model Example</title>
+
+    <table border="1">
+        <th>ID</th>
+
+        <th>Book Name</th>
+
+        <th>Author</th>
+        @foreach (var book in Model)
+        {
+    <tr>
+        <td>@book.ID</td>
+        <td>@book.Name</td>
+        <td>@book.Author</td>
+    </tr>
+        }
+
+    </table>
+</head>
+<body>
+</body>
+</html>
