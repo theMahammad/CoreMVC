@@ -1,0 +1,19 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Layout</title>
+</head>
+<body>
+    <h1>This is a common header</h1>
+    <div>
+        @RenderBody(); <!--Thanks to this codeline, the page which inherit this page will be able to fill this section in its own way-->
+    </div>
+</body>
+</html>

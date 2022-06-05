@@ -37,5 +37,9 @@ namespace FirstLesson.Controllers
             return View();
 
         }
+        public IActionResult UsingLayout()
+        {
+            return View();
+        }
     }
 }
