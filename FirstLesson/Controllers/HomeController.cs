@@ -29,5 +29,13 @@ namespace FirstLesson.Controllers
         };
             return View(books);
         }
+
+        public IActionResult UsingViewBag()
+        {
+            ViewBag.variable1 = "Knock! Knock! I'm back!";
+            ViewBag.variable2 = ViewBag.variable1 + " I'm Mahammad! ";
+            return View();
+
+        }
     }
 }

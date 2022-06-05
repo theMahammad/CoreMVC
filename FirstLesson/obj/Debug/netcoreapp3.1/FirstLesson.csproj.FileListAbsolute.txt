@@ -104,3 +104,4 @@ C:\Users\hssjx\source\repos\CoreLesson\FirstLesson\obj\Debug\netcoreapp3.1\First
 C:\Users\hssjx\source\repos\CoreLesson\FirstLesson\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index2.cshtml.g.cs
 C:\Users\hssjx\source\repos\CoreLesson\FirstLesson\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index3.cshtml.g.cs
 C:\Users\hssjx\source\repos\CoreLesson\FirstLesson\obj\Debug\netcoreapp3.1\Razor\Views\Home\ModelExample.cshtml.g.cs
+C:\Users\hssjx\source\repos\CoreLesson\FirstLesson\obj\Debug\netcoreapp3.1\Razor\Views\Home\UsingViewBag.cshtml.g.cs
