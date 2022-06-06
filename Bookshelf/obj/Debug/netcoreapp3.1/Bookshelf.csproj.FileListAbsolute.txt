@@ -103,3 +103,4 @@ C:\Users\hssjx\source\repos\CoreLesson\Bookshelf\obj\Debug\netcoreapp3.1\Bookshe
 C:\Users\hssjx\source\repos\CoreLesson\Bookshelf\obj\Debug\netcoreapp3.1\Bookshelf.pdb
 C:\Users\hssjx\source\repos\CoreLesson\Bookshelf\obj\Debug\netcoreapp3.1\Bookshelf.genruntimeconfig.cache
 C:\Users\hssjx\source\repos\CoreLesson\Bookshelf\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\hssjx\source\repos\CoreLesson\Bookshelf\obj\Debug\netcoreapp3.1\Razor\Views\Home\_PartialPage.cshtml.g.cs
