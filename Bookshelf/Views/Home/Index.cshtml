@@ -1,0 +1,23 @@
+﻿@model List<Bookshelf.Models.Book>;
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link href="~/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+<table class="table table-bordered ">
+    <th>ID</th>
+    <th>Name</th>
+    <th>Author</th>
+    <th>Price</th>
+    @foreach (var book in Model)
+    {
+<tr>
+    <td>@book.ID</td>
+    <td>@book.Name</td>
+    <td>@book.Author</td>
+    <td>@book.Price</td>
+</tr>
+    }
+
+</table>
+
