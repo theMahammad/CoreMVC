@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OriNshifFdaKbQGl13NPxFR9ifnzPsp6it8at1g6wqWlevREGHgCB9Rk8Ju3VxkImr53eC9mOh5sGgXMEngjpA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hssjx\\source\\repos\\CoreLesson\\SecondLesson\\SecondLesson.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hssjx\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}
