@@ -11,15 +11,15 @@
     <th>Price</th>
     @foreach (var book in Model)
     {
-<tr>
-    <td>@book.ID</td>
-    <td>@book.Name</td>
-    <td>@book.Author</td>
-    <td>@book.Price</td>
-</tr>
+        <tr>
+            <td>@book.ID</td>
+            <td>@book.Name</td>
+            <td>@book.Author</td>
+            <td>@book.Price</td>
+        </tr>
     }
     @Html.Partial("_PartialPage"); <!--The text of mentioned partial page will be writed using this command-->
-
+    @await Component.InvokeAsync("NewBooks"); <!--Using this command, we can call the View file which locates inside the folder named "NewBooks"  -->
 </table>
 
 

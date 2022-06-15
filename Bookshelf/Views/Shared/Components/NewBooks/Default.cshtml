@@ -1,0 +1,15 @@
+﻿@model IList<Bookshelf.Models.Book>
+@{
+    Layout = null;
+}
+
+@foreach (var book in Model)
+{
+<tr>
+
+    <td>@book.ID</td>
+    <td>@book.Name</td>
+    <td>@book.Author</td>
+    <td>@book.Price</td>
+</tr>
+}
